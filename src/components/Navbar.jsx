@@ -32,13 +32,15 @@ const Navbar = () => {
           transition={{ delay: 0.4, duration: 0.6, ease: "easeOut" }}
           className="hidden md:block"
         >
-          <motion.button
+          <a href="https://producer.dmoonlight.com/">
+            <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-2 rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md"
           >
             Start uploading
           </motion.button>
+          </a>
         </motion.div>
       </div>
     </motion.nav>
