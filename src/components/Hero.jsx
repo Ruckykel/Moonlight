@@ -50,13 +50,15 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         >
-          <motion.button
+          <a href="https://producer.dmoonlight.com/">
+            <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-red-600 hover:bg-red-700 text-white font-medium px-8 py-3 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-lg"
           >
             Start uploading
           </motion.button>
+          </a>
         </motion.div>
       </div>
     </section>
